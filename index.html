@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>To Do</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+
+<div class="container">
+    <div style="margin-top: 6%; margin-left:4%"> 
+        <h1>Simple To Do List</h1>
+     <p>Today is awesome day. The weather is awesome, you are awesome too!</p>
+     <button class="btn">To Do</button>
+     <button class="btn1">Done</button>
+     <button class="btn">Trash</button>
+    </div>
+    <div class="newtask"  > 
+        <h1 style="font-size:16px;margin-left:30px;">Add New To Do</h1>
+        <input type="text" id="taskInput" class="taskInput" placeholder="Your text">
+  <div  style="margin-top: 10px; "> <button  style="border:none; 
+    background-color:#081E34; 
+    color:white; 
+  border-radius:25px;
+  font-size: 14px;
+  width: 75px;
+  height: 40px;
+  margin-left:30px" onclick="addTask()">Add</button></div>
+    </div>  
+</div>
+
+    <h2>Done</h2>
+    <hr>
+    <div id="taskList"></div>
+    <div id="deletedList"></div>
+
+
+  <footer>
+   <div class="footer">
+    <img src="./pics/label-text (3).png" alt=""  >
+    <img src="./pics/label-text (2).png" alt="" style="margin-left:580%">
+   </div>
+       
+</footer>
+</body>
+</html>

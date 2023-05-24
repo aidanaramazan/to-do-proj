@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ .task {
+    margin-bottom: 10px;
+  }
+
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .deleted {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .bin {
+    cursor: pointer;
+    color: red;
+  }
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.footer{
+ width: 150px; 
+ display:flex;
+ flex-direction:row-reverse;
+ justify-content:space-between;
+}
+
+.btn{
+  margin-top:6%;
+  margin-left:4%;
+  font-size: 14px;
+  width: 75px;
+  height: 40px;
+  background-color: #F0F0F0;
+  color: #081E34;
+  border-radius:25px;
+  border:none;
+  margin-right: 10px;
+}
+
+.btn1{
+  background-color:#081E346B ;
+  color: #F0F0F0;
+  border-radius:25px;
+  border:none;
+  font-size: 14px;
+  width: 75px;
+  height: 40px;
+  margin-right: -25px;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.newtask{
+  margin-left: 230px;
+  background-color: #E4E6E7;
+  margin-top: 6%;
+  height: 250px;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.taskInput{
+  border: none;
+  height: 150px;
+  margin-left: 30px;
+  border-radius: 20px;
+  width:230px;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  margin-top: 290px;
+  margin-left: 40px;
+  position: relative;
+
+}
